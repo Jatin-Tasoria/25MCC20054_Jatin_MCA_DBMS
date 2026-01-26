@@ -6,13 +6,19 @@ Implementation of SELECT Queries with Filtering, Grouping, and Sorting in Postgr
 
 ---
 
-## 🎯 Aim of the Session
+## 🎯 Aim
 
 The aim of this practical session is to implement and analyze SQL SELECT queries in PostgreSQL using filtering, sorting, grouping, and aggregation concepts for efficient data retrieval and analytical reporting.
 
 ---
 
-## 🎯 Objective of the Session
+## 🖥️ Software Requirements
+- Oracle Database Express Edition  
+- pgAdmin (PostgreSQL)
+
+---
+
+## 🎯 Objective
 
 After completing this practical session, the learner will be able to:
 
@@ -142,6 +148,17 @@ HAVING SUM(price) > 50000;
 
 ---
 
+###  Using WHERE and HAVING Together
+```sql
+SELECT product, SUM(quantity * price) AS total_revenue
+FROM customer_orders
+WHERE order_date >= '2025-01-01'
+GROUP BY product
+HAVING SUM(quantity * price) > 50000;
+```
+
+---
+
 ## 📥 Input / Output Details
 
 ### Input:
@@ -152,7 +169,7 @@ HAVING SUM(price) > 50000;
 
 ### Output:
 
-* Output is **not included** as per practical instructions
+>[ScreenShot](./assets/)
 
 ---
 
