@@ -32,7 +32,6 @@ After completing this practical session, the learner will be able to:
 
 ## 🧪 Practical / Experiment Steps
 
-*(In place of Experiment Question)*
 
 * Create a database in PostgreSQL
 * Create a table for storing order details
