@@ -167,8 +167,40 @@ HAVING SUM(quantity * price) > 50000;
 * Filtering, sorting, grouping, and aggregation queries
 
 ### Output:
+•	Table creation
 
->[ScreenShot](./assets/)
+
+ <img width="414" height="107" alt="Table Creation" src="https://github.com/user-attachments/assets/1e1656e1-2c85-4a96-a359-8f818cc7624a" />
+
+
+•	Data insertion
+
+
+<img width="407" height="104" alt="Data insertion" src="https://github.com/user-attachments/assets/3b24a041-2520-468b-b1e9-b8e5dfcb4f34" />
+
+ 
+•	Filtering
+
+
+<img width="568" height="114" alt="Filtering" src="https://github.com/user-attachments/assets/b63249cb-5314-4030-9a86-7854f7f82125" />
+
+ 
+•	Sorting
+
+
+<img width="572" height="203" alt="Sorting" src="https://github.com/user-attachments/assets/d661fdda-ae0f-4b49-8281-29f251dcafde" />
+
+ 
+•	Grouping
+
+
+<img width="357" height="139" alt="Grouping" src="https://github.com/user-attachments/assets/e164d221-24b9-4e6d-ab16-5ba964af0d12" />
+
+ 
+•	Aggregation
+
+<img width="360" height="114" alt="Aggregation" src="https://github.com/user-attachments/assets/ac29e724-e8b0-44d9-84ab-4cca3c9929ac" />
+
 
 ---
 
