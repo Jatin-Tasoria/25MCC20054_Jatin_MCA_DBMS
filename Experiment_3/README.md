@@ -1,10 +1,3 @@
-Perfect 👍
-Below is a **clean, lab-record–ready README.md** for **EXPERIMENT – 03**, written exactly in the format your DBMS / PostgreSQL practicals expect.
-
-You can directly copy-paste this into your **README.md** file.
-
----
-
 # EXPERIMENT – 03
 
 ## Implementation of Conditional Logic using IF–ELSE and CASE Statements in PostgreSQL
@@ -177,11 +170,61 @@ ORDER BY
 
 ## 6. Output
 
-* Schemas are classified into violation categories
-* Approval status is automatically updated
-* Conditional messages are displayed using IF–ELSE
-* Students are graded based on marks
-* Records are sorted by violation severity
+•	Table creation
+
+
+<img width="427" height="101" alt="CREATE TABLE" src="https://github.com/user-attachments/assets/230bf1fa-d6b5-4760-93b7-fa1ebad1f1f9" />
+ 
+
+•	Data Insertion
+
+
+ <img width="398" height="96" alt="Insertion" src="https://github.com/user-attachments/assets/00b7d5bc-b666-446a-861e-741cd9514893" />
+
+
+•	Classifying Data Using CASE Expression
+
+
+<img width="533" height="176" alt="Table" src="https://github.com/user-attachments/assets/f6a8c919-ca7b-410b-a8ea-4f437d123938" />
+
+
+
+•	Altering Table
+
+
+ <img width="389" height="98" alt="Altering table" src="https://github.com/user-attachments/assets/ac3b194f-a8ee-4061-93e8-dde90017ea79" />
+
+
+•	Updating
+
+
+<img width="383" height="101" alt="Updating table" src="https://github.com/user-attachments/assets/fc2c8a71-22ee-441e-8d22-dccc044b851a" />
+
+ 
+
+•	After altering and updating
+
+
+<img width="687" height="167" alt="Approval status" src="https://github.com/user-attachments/assets/46b3f3c4-ada5-4ab4-95d7-fbf5e21b85d8" />
+
+ 
+•	IF–ELSE Logic Using PL/pgSQL
+
+
+<img width="400" height="121" alt="Notice and DO" src="https://github.com/user-attachments/assets/de1df93d-3c6d-46b2-8c61-f06b85b65df1" />
+
+ 
+
+•	Real-World Classification Scenario
+
+<img width="397" height="180" alt="Real Life" src="https://github.com/user-attachments/assets/db58cdf8-a722-4472-b688-5c3c5f396901" />
+
+ 
+
+•	Using CASE for Custom Sorting
+
+<img width="385" height="176" alt="Violation Count" src="https://github.com/user-attachments/assets/8ec4df65-55f1-45f3-bff6-1b07a244f22e" />
+
 
 ---
 
