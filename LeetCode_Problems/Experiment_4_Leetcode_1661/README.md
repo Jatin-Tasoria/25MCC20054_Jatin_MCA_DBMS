@@ -1,5 +1,6 @@
---- LeetCode Problem 1661
+# LeetCode Problem 1661
 
+```sql
 SELECT
     s.machine_id,
     ROUND( AVG( (e.timestamp - s.timestamp)::numeric ), 3 ) AS processing_time
@@ -10,3 +11,6 @@ JOIN Activity e
    AND s.activity_type = 'start'
    AND e.activity_type = 'end'
 GROUP BY s.machine_id;
+```
+
+![Alt Text](./1661.png)
