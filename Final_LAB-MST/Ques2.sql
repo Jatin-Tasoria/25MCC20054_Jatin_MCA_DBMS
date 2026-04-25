@@ -9,7 +9,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-CREATE TRIGGER trg_update_stock
+CREATE OR REPLACE TRIGGER trg_update_stock
 AFTER INSERT ON Tbl_Orders
 FOR EACH ROW
 EXECUTE FUNCTION update_stock_after_order();
